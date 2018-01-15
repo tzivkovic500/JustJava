@@ -8,7 +8,27 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_margin="16dp"
+        android:text="toppings"
+        android:textAllCaps="true"
+
+        />
+
+    <CheckBox
+        android:id="@+id/whipped_cream_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:paddingLeft="24dp"
+        android:text="Whipped cream"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
         android:text="Quantity"
         android:textAllCaps="true"
 
@@ -24,6 +44,7 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
             android:onClick="decrement"
             android:text="-" />
 
@@ -51,7 +72,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_margin="16dp"
         android:text="ORDER SUMMARY"
 
         />
@@ -60,7 +81,7 @@
         android:id="@+id/order_summary_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_margin="16dp"
         android:text="$10"
         android:textColor="#000000"
         android:textSize="16sp" />
@@ -69,7 +90,7 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_margin="16dp"
         android:onClick="submitOrder"
         android:text="ORDER" />
 
